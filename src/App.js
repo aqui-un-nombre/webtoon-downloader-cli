@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Alert from 'react-bootstrap/Alert'
+import './stylesheet/App.scss';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App h-100 w-100">
         <header className="App-header">
           <Alert variant="danger">
             <Alert.Heading>How's it going?!</Alert.Heading>
