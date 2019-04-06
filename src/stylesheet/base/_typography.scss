@@ -1,0 +1,14 @@
+@import "../utils/vars";
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url(#{$--font-path}/Product-Sans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Product Sans Bold';
+  src: url(#{$--font-path}/Product-Sans-Bold.ttf);
+}
+@font-face {
+  font-family: 'Product Sans Italic';
+  src: url(#{$--font-path}/Product-Sans-Italic.ttf);
+}
