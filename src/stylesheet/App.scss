@@ -1,10 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
-@import "utils/colors";
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Product Sans", sans-serif;
-  background-color: $dark;
-  color: $light;
-}
+@import "utils/vars";
+
+@import "base/colors";
+@import "base/typography";
+@import "base/reset";
+
+@import "themes/main";

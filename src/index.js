@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './stylesheet/App.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faIgloo, faBinoculars } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faIgloo, faBinoculars);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
