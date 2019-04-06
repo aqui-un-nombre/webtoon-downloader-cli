@@ -1,24 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Alert from 'react-bootstrap/Alert'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload. Nice!!!!!
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <Alert variant="danger">
+            <Alert.Heading>How's it going?!</Alert.Heading>
+            <p>
+              Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+              eget lacinia odio sem nec elit. Cras mattis consectetur purus sit
+              amet fermentum.
+            </p>
+          </Alert>
         </header>
       </div>
     );

@@ -4,11 +4,13 @@
   "private": true,
   "author": "MGMR",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "concurrently": "^4.1.0",
     "electron": "^4.1.4",
     "electron-builder": "^20.39.0",
     "electron-is-dev": "^1.0.1",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8",
     "wait-on": "^3.2.0"
@@ -38,7 +40,7 @@
       "build/**/*",
       "node_modules/**/*"
     ],
-    "directories":{
+    "directories": {
       "buildResources": "assets"
     }
   },
