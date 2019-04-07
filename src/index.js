@@ -4,9 +4,9 @@ import './stylesheet/App.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faIgloo, faBinoculars } from '@fortawesome/free-solid-svg-icons';
+import { faIgloo, faBinoculars, faSearch } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faIgloo, faBinoculars);
+library.add(faIgloo, faBinoculars, faSearch);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

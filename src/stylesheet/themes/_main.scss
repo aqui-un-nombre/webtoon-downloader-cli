@@ -1,3 +1,4 @@
+// COLORS
 .primary { color: $primary; }
 .secondary { color: $secondary; }
 .accent { color: $accent; }
@@ -6,6 +7,7 @@
 .light { color: $light; }
 .gray { color: $gray; }
 
+// BACK-COLORS
 .back-primary { background-color: $primary; }
 .back-secondary { background-color: $secondary; }
 .back-accent { background-color: $accent; }
@@ -13,3 +15,8 @@
 .back-dark-semi { background-color: $dark-semi; }
 .back-light { background-color: $light; }
 .back-gray { background-color: $gray; }
+
+// FONTS
+.font-regular { font-family: "Product Sans", sans-serif; }
+.font-bold { font-family: "Product Sans Bold", sans-serif; }
+.font-italic { font-family: "Product Sans Italic", sans-serif; }

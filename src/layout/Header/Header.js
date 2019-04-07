@@ -5,7 +5,10 @@ class Header extends Component {
   render() {
     return (
       <header className="d-block w-100 pt-3 px-3">
-        <SearchBox />
+        <div className="row">
+          <div className="col"><SearchBox /></div>
+          <div className="col"></div>
+        </div>
       </header>
     );
   }

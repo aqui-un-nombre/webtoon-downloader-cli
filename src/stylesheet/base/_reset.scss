@@ -6,3 +6,7 @@ body {
   background-color: $dark;
   color: $light;
 }
+a {
+  color: $gray;
+  &:hover { text-decoration: none; color: white; }
+}

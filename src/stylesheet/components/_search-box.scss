@@ -1,0 +1,6 @@
+.search-box {
+  input {
+    &::placeholder { color: $gray; }
+  }
+  .icon-search { top: 9px; left: 10px; }
+}
