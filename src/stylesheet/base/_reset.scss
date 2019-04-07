@@ -10,3 +10,4 @@ a {
   color: $gray;
   &:hover { text-decoration: none; color: white; }
 }
+input, .form-control { height: calc(1.5em + 0.4rem); font-size: .9rem; }

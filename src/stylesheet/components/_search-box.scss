@@ -1,6 +1,7 @@
 .search-box {
   input {
+    padding-left: 2.2rem;
     &::placeholder { color: $gray; }
   }
-  .icon-search { top: 9px; left: 10px; }
+  .icon-search { top: 7px; left: 10px; }
 }
